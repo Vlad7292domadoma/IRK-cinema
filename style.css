@@ -394,7 +394,7 @@ border: none;
   height: 40px;
   background: transparent no-repeat center center;
   background-size: 100% 100%;
-  background-image: url("/public/topBtn.svg")
+  background-image: url("https://cdn.onlinewebfonts.com/svg/img_489124.png")
 }
 
 .btn-up_hide {
