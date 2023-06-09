@@ -1,0 +1,429 @@
+.topTextDiv {
+  height: 55px;
+  background-image: linear-gradient(#ff5900, #ff5900da, #a8988023);
+  font-display: initial;
+  width: 100%;
+  display: block;
+
+
+}
+
+
+.label {
+  padding-left: 17px;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 23px;
+}
+
+
+#app {
+  display: inline-block;
+  width: 100%;
+}
+
+#findbtn:hover {
+  
+      transform: scale(1.1);
+    
+}
+
+#zametkidiv {
+
+  padding-left: .8vw;
+  position: fixed;
+  display: none;
+  width: 244px;
+  height: 310px;
+  margin-top: 49px;
+  
+}
+
+.bodyClass {
+
+
+  background-image: linear-gradient(rgb(161, 161, 161), rgb(71, 71, 71), rgb(22, 22, 22));
+  margin-top: 0;
+  margin-bottom: 100vh;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#inputdiv {
+  margin-bottom: 1vh;
+}
+.greyTr {
+  background-color: #f8f8f8;
+    box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
+}
+
+.whiteTr {
+  background-color: white;
+      box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
+}
+
+.headtr {
+  background-color: #b3b3b3;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.td1 {
+  width: 30vw;
+  box-sizing: border-box;
+  padding-left: 4px;
+}
+
+.td2 {
+  width: 15vw;
+  box-sizing: border-box;
+}
+
+.td3 {
+  width: 15vw;
+  box-sizing: border-box;
+}
+
+.td4 {
+  width: 30vw;
+  box-sizing: border-box;
+}
+
+.correctable:hover {
+      text-decoration: underline;
+}
+
+
+.td5 {
+  width: 2.5vw;
+  box-sizing: border-box;
+}
+
+.findFilmText {
+  display: inline;
+  padding-left: 0;
+}
+
+.inLine {
+  display: inline;
+
+}
+
+.mainDiv {
+  margin-right:   1.5vw;
+  margin-left: 4vw;
+  display: inline-block;
+}
+
+.addTable {
+  margin: 0;
+  padding: 0;
+}
+#finddiv {
+  display: inline;
+}
+.zagolovokUnSeeFilmsClass {
+    margin-bottom: 0.8vh;
+    padding-left: 0px;
+}
+.zagolovokSeeFilms {
+    margin-bottom: 0.8vh;
+        padding-left: 0px;
+}
+.addFilmText {
+  padding-bottom: 0;
+  margin-bottom: 0.8vh;
+}
+.textArea {
+border-radius: 2px;
+border: none;
+  background-image: linear-gradient(#f3d6c260, #ff5900da,#ff5900);
+  padding-left: 4px;
+    box-shadow: 10px 10px 12px rgba(73, 73, 73, 0.4);
+}
+#inputnm {
+  font-size: 1.2vw;
+}
+
+#inputgnr {
+  font-size: 1.2vw;
+}
+#inputtype {
+    font-size: 1.2vw;
+}
+#inputcomm {
+      font-size: 1.2vw;
+}
+@media (min-width:805px) and (max-width:1200px) {
+  #zametkidiv {
+    display: inline;
+  }
+  #app {
+      width: calc(100% - 271px);
+  }
+  .td1 {
+    font-size: 1.3vw;
+  }
+ .td2 {
+   font-size: 1.3vw;
+ }
+ .td3 {
+   font-size: 1.3vw;
+ }
+ .td4 {
+   font-size: 1.3vw;
+ }
+}
+
+
+@media (min-width:1201px)  {
+  #inputnm {
+      font-size: 14.2px;
+    }
+  
+    #inputgnr {
+      font-size: 14.2px;    }
+  
+    #inputtype {
+      font-size: 14.2px;    }
+  
+    #inputcomm {
+      font-size: 14.2px;  
+      }
+
+  #zametkidiv {
+    display: inline;
+  }
+
+  #app {
+    width: calc(100% - 271px);
+  }
+
+  .td1 {
+    font-size: 16px;
+  }
+
+  .td2 {
+    font-size: 16px;
+  }
+
+  .td3 {
+    font-size: 16px;
+  }
+
+  .td4 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:520px) and (max-width:805px) {
+  #inputnm {
+      font-size: 9.6px;
+    }
+#findnm {
+  font-size: 9.6px;
+}
+#findgenre {
+    font-size: 9.6px;
+}
+#findtype {
+      font-size: 9.6px;
+}
+
+
+
+
+
+
+    
+  
+    #inputgnr {
+      font-size: 9.6px;    }
+  
+    #inputtype {
+      font-size: 9.6px;    }
+  
+    #inputcomm {
+      font-size: 9.6px;    }
+  #zametkidiv {
+    display: none;
+  }
+
+  #app {
+    width: 100%;
+  }
+
+  .td1 {
+    font-size: 10.4px;
+  }
+
+  .td2 {
+    font-size: 10.4px;  }
+
+  .td3 {
+    font-size: 10.4px;  }
+
+  .td4 {
+    font-size: 10.4px;  }
+        .mainDiv {
+          margin-right: 1vw;
+          margin-left: 1vw;
+          display: inline-block;
+        }
+}
+
+@media (min-width:100px) and (max-width:520px) {
+  .findFilmText {
+          font-size: 10px;
+  }
+  #inputnm {
+      font-size: 9.6px;
+    }
+  
+    #findnm {
+      font-size: 9.6px;
+      width: 12vw !important;
+    }
+  
+    #findgenre {
+      font-size: 9.6px;
+            width: 15vw !important;
+    }
+  
+    #findtype {
+      font-size: 9.6px;
+            width: 12vw !important;
+    }
+
+#findbtn {
+  width: 33px !important;
+  height: 20px !important;
+  border: none;
+}
+  #zametkidiv {
+    display: none;
+  }
+#inputnm {
+  font-size: 9.6px;
+}
+
+#inputgnr {
+  font-size: 9.6px;
+}
+
+#inputtype {
+  font-size: 9.6px;
+}
+
+#inputcomm {
+  font-size: 9.6px;
+}
+    .mainDiv {
+      margin: 0;
+      display: inline-block;
+    }
+
+  #app {
+    width: 100%;
+  }
+.body {
+  margin: 0;
+}
+
+  .td1 {
+    font-size: 10.4px;
+  }
+
+  .td2 {
+    font-size: 10.4px;
+  }
+
+  .td3 {
+    font-size: 10.4px;
+  }
+
+  .td4 {
+    font-size: 10.4px;
+  }
+    .whiteTr {
+      font-size: 2px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-up {
+  /* фиксированное позиционирование */
+  position: fixed;
+  /* цвет фона */
+  background-color: #4a4a4b;
+  /* расстояние от правого края окна браузера */
+  right: 20px;
+  /* расстояние от нижнего края окна браузера */
+  bottom: 0;
+  /* скругление верхнего левого угла */
+  border-top-left-radius: 8px;
+  /* скругление верхнего правого угла */
+  border-top-right-radius: 8px;
+  /* вид курсора */
+  cursor: pointer;
+  /* отображение элемента как flex */
+  display: flex;
+  /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
+  align-items: center;
+  /* выравниваем элементы внутри элемента по центру вдоль главной оси */
+  justify-content: center;
+  /* ширина элемента */
+  width: 60px;
+  /* высота элемента */
+  height: 50px;
+}
+
+.btn-up::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("/public/topBtn.svg")
+}
+
+.btn-up_hide {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .btn-up:hover {
+    background-color: #656369;
+    /* цвет заднего фона при наведении */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
