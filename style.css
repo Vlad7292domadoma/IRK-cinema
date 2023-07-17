@@ -383,15 +383,15 @@ border: none;
   /* выравниваем элементы внутри элемента по центру вдоль главной оси */
   justify-content: center;
   /* ширина элемента */
-  width: 240px;
+  width: 60px;
   /* высота элемента */
-  height: 200px;
+  height: 50px;
 }
 
 .btn-up::before {
   content: "";
-  width: 160px;
-  height: 160px;
+  width: 40px;
+  height: 40px;
   background: transparent no-repeat center center;
   background-size: 100% 100%;
   background-image: url("https://cdn.onlinewebfonts.com/svg/img_489124.png")
